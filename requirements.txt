@@ -1,0 +1,4 @@
+notebook
+jupyterlab
+bash_kernel
+jupyterhub-firstuseauthenticator
