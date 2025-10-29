@@ -11,11 +11,7 @@ RUN /srv/venv/bin/python3 -m bash_kernel.install
 
 # Set user  
 RUN useradd jupyter --home /home/jupyter --create-home --shell /bin/bash
-
-# Add one line by user that you wan t to create in the container
-#RUN useradd user1 --home /home/user1 --create-home --shell /bin/bash
+RUN useradd adminhub --home /home/adminhub --create-home --shell /bin/bash
 
 
-
-#CMD ["venv/bin/python3 /srv/jupyter/"]
 

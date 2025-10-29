@@ -1,1 +1,1 @@
-docker run -d -p 9000:8000 --name <container_name> <repo_name>/<image_name> jupyterhub
+docker run -d -p 9000:8000 --name <container-name> <repo-name>/<image-name> jupyterhub
